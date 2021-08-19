@@ -89,7 +89,7 @@ function showUser(event) {
   const userId=event.target.getAttribute('id');
   const users=getFromStorage('users');
   for(let user of users){
-    if(user.id=userId){
+    if(user.id==userId){
       localStorage.setItem('currentUser', JSON.stringify(user));
       setCurrentUser('close');
       content.prepend(backBtn);
@@ -99,6 +99,7 @@ function showUser(event) {
 }
 //показываем описание карточки
 export function showDescrib(event){
+  if((event.target).parentNode.classList.contains('trash'))return;//если нажали на удалить, то отменяется показ
   const data=JSON.parse(localStorage.currentUser).describs;
   let i=0;
   while(i<data.length){
