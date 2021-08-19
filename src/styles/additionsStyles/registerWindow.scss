@@ -1,0 +1,55 @@
+.Window{
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.form-signin{
+  background-color: #212529;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 300px auto;
+  text-align: center;
+  width: 400px;
+}
+h1, .checkbox label{
+  color: white;
+}
+.form-floating{
+  margin-bottom: 20px;
+}
+.submitBtn{
+  height: 24px;
+  width: 102px;
+  color: white;
+  background-color: #212529;
+  border: none;
+}
+.submitBtn{
+  height: 24px;
+  width: 102px;
+  color: white;
+  background-color: #0079BF;
+  outline: none;
+  border-radius: 5px;
+  border:none;
+}
+.board_input{
+  width: 100%;
+}
+.board_input input{
+  background-color: #EBECF0;
+  height: 40px;
+  width: 100%;
+  padding-left: 10px;
+  border: none;
+  border-bottom: 2px solid #212529;
+}
+.board_input input:focus{
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #212529;
+}

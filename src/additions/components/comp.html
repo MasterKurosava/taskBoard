@@ -1,0 +1,30 @@
+
+<!-- подтверждение новой карточки -->
+<button class="submitBtn">Submit</button>
+<!-- Ввод новой -->
+<div class="board_input">
+  <input type="text" placeholder="New task...">
+</div>
+<!-- Удалить карточку -->
+<div class="trash">
+  <img draggable="false" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAACnElEQVR4nO2aTW4TQRCFX/XY1rSEhLgDF8gKkSNkw4r7cJ9skJB8BxZgiVuQBFaJhWJPF4v5cYSE6VfKzNSI/jbu9vS0a17/VFd5gEKhUCgUCv8rcu7i48WVTmXImGx2278+Z5jSEI8UAeY2oFCYl7Ne4E/07fuI+33d1/erKlarpgYAeTxGqVZtWZqIVNUA0EiKkkL3fYqQtoykUURqAEiiEaptG8hQhkgUQdsmYSgDiMBQbuva1lUQAdkJ9BLAy81ue3aZr3If/nBx9fHw6+Hd0zvWOALHrhIqQFuvqRoAtOWgAkjvTWVoAwG0a9NefjIWcioPzf81VHL6ENHP66/bVznPlb0JqshNbtu50aTZtuYLkNJyBCAGK1sAWdAMEIwggBKdzo1K/mzNFiAQnc5NaMLzC5CO+Z3OTcLx+QXYVOm7zZzp2YQRZgB2b37g5PU903S2ZpHvBfAhAcjueC4UuO1szYKNBt3vA0LaSAqwCFc4pgC6hI1wRAE0/4w9GwpqkCgBBLjlrJke1kZKAJXgfgmwUSslQFrAcTgIt09RAoQFRISJiAMAUoDmULkXoJH8OAAgBajX3A47B3W1Hk8A+fJpD+CBsmhS5L6zMRv+jxHSz04Lf1DjBRDP8QB/UKMFEMOPTAWTC+yhBfCcG7Sk7nkB1G9AZLHNsATEbTxgiVX4GeB4E7QsT1oA9qw9JSHxLpoWwHN6nEmH99ACbHBwKwCTDu/hD0LfLu8ANPR949Pg9Yuf7E0GL+A2PX4n19f0wFhfkvK4EZpsMgrg8jRosskogMt4YEIBPB6GjCl7kwBCvIMzFZZIEDAK4DEitL7EZRIgOcwOW1P2JgFC8BcPhKaazg16TI+z6fAekwAe0+NsOrxQKBQKBeA30VjiOEu3tTMAAAAASUVORK5CYII="/>
+</div>
+<!-- Выпадающий список -->
+<div class="dropdown dropdown_add">
+  <a class="btn btn-first dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false"></a>
+  <ul class="dropdown-menu show"></ul>
+</div>
+<!-- Описание задачи -->
+<div class="des_container">
+  <div class="des">
+    <div class="des_head">
+      <h1>Название</h1>
+      <img class="des_closeBtn" draggable="false" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEaUlEQVRoge2a229VRRTGv4HGHlIUWmgp8UWiUfFy5FFD0Gi8FIvXN1DeIBAThCj/hfGFBKP/hokSmohyEXqzKjWWluKLQFBMTEQqFc3Ph1mbjuVc9szepzSE9bKTvdb61jd7zWXNzJbuyOISVxYQ0CXpaUkbJT0i6X5JPZI6zOSqpF8k/STpR0knJB1zzv1eFodkASrAdmAA+Jd4+Qc4DLwNtBfhkpQRYJmkdyS9L2mtvZ6VdFLSl5LGJU1KuiTpT9Mvl9Qr6SFJVUnPSnpKUtaAi5I+lPSRc+5aCq/YRvQD54KvOgLsAFYkYK0EdgKjAd40sLkV3LOgFeDjIOA3wIsl4vcB3wb4B4FKWfhZkF4jDnAV2AMsLTWIj7MU2AvMBNleUxb4Oks3wATwWCnAjWNWgUmLeRZYVxSwOwAcBlaXxDVP7E7ghMU+B/SmAlWC7nQS6GjuVa4AHcBg0M3ix0wwsCfwi90tEWBV0CsOxjr3BwO75WMiB59qMAH05XVaxtw6safFHHMLsC8Y/M27GLA/WCdKn2JTBWgDvjNu+5oZtwMXzPiFBeKYW4CXjdvFhlnBF28AIxHgx/AlRk8CsR7L/PGc9i6YSbc1Mhwwox0RZIbNZzymMdaIcfMdivDbZT6H6hl04cvqa0QUgPMI5WpMik/g2wnMAtdr8gTeMOAv8oIGvt3AafOfANZG2Eav2MBR838le7ck0G+051exwM65y5Kel/SDpIclDdT6yvbuiKTHzfYZ59yl2Hjyex5J2nSTBvjMWvlqAnCGUTczZWQiwMp6z6e1lFOmXJ8awHBu6v9FxkSdGI8a1playt9MuapIEMOaT7y0Rhj+asO7XEs5a8q7igYyvLArFe5O87DbDfPG3n5JI4cWSGnHT3Xldupat81gz6bf1woEqDvF1tDVXTRzxHnTcG5Mv+EYmbDnE4ngDRe7vItmTqnas2ZGXrdWHolFbZSJHLbRmWGuRNlSS9nJXNG4MgJ0oYvGLuaKxnvqGR028J0RwCOJhMLGDEf47TafzxsZvWVGoxHApyi2sRoFTuW0d8CYcdzayLAdOG+GL8USa7UAW4zbzzS7hgDeM+MxFt/hw/fG7d08DhXmznr3LgDHXBJ84Mmm2QicNpvTDFBt7tFaATYAfxmnuKsM/P1E9gUK11+pgl93zhqXAykAlWBqHeTWHGIvB4aMw1DuLlUDqBs4k831QHfJXBvF7gK+ttjTFL3wwV/0ZKmdBJJqsciYG4KYU8B9ZQGvCbrZDP5Aua0U8P/HabPZKRvYQ5Swf5kfpBJMAOAPlEu5fcWv2P3BOgFwIHlM5AzaF6Qd/FnsLqAzAasLXzuNBXhTJNwWp/4wUJG0W9J+Sffa678lDcrvSU5LmpL/YeCK6e+W/7ngQfk9y3OSnpSUHXacl/SBpE+cc7MpvJIFX5ttAw7htwCxch2/M91atBuV+VPNCvmfajZJWi/pAUnd8pmQfGZ+lTQtv7M7Lumoc+6PsjjckcUk/wH9JhkF5LFi9gAAAABJRU5ErkJggg=="/>
+    </div>
+    <div class="des_content">
+      <p contenteditable="true">...</p>
+    </div>
+  </div>
+</div>
+<!-- Кнопка назад -->
+<button class="back-js">Назад</button>

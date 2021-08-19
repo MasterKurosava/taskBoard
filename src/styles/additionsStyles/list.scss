@@ -1,0 +1,55 @@
+.list_container{
+  background-color: #212529;
+  border-radius: 10px;
+  width: 95vw;
+  min-width:900px;
+  min-height: 680px;
+  margin: 20px auto;
+  color: white;
+  .list_head{
+    padding: 20px;
+    h1{
+      font-size: 3em;
+    }
+  }
+  .list_points{
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+    p{
+      font-size: 20px;
+      padding: 0 15px;
+      width: 300px;
+    }
+  }
+  .list_body{
+    padding:0;
+    margin: 0 40px;
+    .list_user{
+      margin-top: 10px;
+      height: 50px;
+      align-items: center;
+      display: flex;
+      justify-content: space-around;
+      a,p{
+        display: block;
+        padding: 0 15px;
+        width: 300px;
+        color: white;
+        margin:0;
+      }
+    }
+  }
+}
+.back-js{
+  position: absolute;
+  display: block;
+  top: 85px;
+  left: 49%;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  background-color: white;
+  border-bottom: 1px solid black;
+}
